@@ -5,7 +5,7 @@
 # For multiples of 5, output   Buzz
 # For multiples of 15, output   FizzBuzz
 # End at 32
-
+result = ""
 for index in range(1,33):
   myNumber = index
   if myNumber % 15 == 0:
@@ -16,4 +16,5 @@ for index in range(1,33):
     else:
       if myNumber % 3 == 0:
         myNumber = ("Fizz")
-  print(myNumber)
+  result = result + str(myNumber)
+
