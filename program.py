@@ -16,5 +16,4 @@ for index in range(1,33):
     else:
       if myNumber % 3 == 0:
         myNumber = ("Fizz")
-
   print(myNumber)
